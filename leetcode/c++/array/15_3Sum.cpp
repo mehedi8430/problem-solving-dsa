@@ -35,7 +35,7 @@ public:
                     j++;
                 else if (sum > 0)
                     k--;
-                else
+                else // sum==0
                 {
                     ans.push_back({nums[i], nums[j], nums[k]});
                     j++;
