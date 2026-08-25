@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// mathmatical approach
+// mathmatical approach -> O(n)
 class Solution
 {
 public:
@@ -19,7 +19,7 @@ public:
     }
 };
 
-// XOR approach
+// XOR approach -> O(n)
 class Solution
 {
 public:
@@ -38,7 +38,7 @@ public:
     }
 };
 
-// binary search approach
+// binary search approach -> O(nlogn)
 class Solution
 {
 public:
